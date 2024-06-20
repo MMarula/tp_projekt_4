@@ -1,0 +1,10 @@
+^C:\USERS\ANTONINA\DESKTOP\TP04\TP_PROJEKT_4\BUILD\SDL2_GFX\SDL2-SUBBUILD\CMAKEFILES\6D5229A08478ACD573CEDD8EA603CCFD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild -BC:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/sdl2-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

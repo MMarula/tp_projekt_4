@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\algebra.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\fruchterman_reingold.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\kamada_kawai.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\layout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\nodesoup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\algebra.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\fruchterman_reingold.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\kamada_kawai.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\layout.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\include\nodesoup.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DF4BA73C-50DC-394F-86D0-5AE5824D97B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D35FD364-D34C-398C-8298-3CFB49E0DCE1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

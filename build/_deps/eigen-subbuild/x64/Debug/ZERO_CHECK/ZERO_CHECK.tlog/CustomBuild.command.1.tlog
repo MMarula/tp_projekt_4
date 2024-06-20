@@ -1,0 +1,10 @@
+^C:\USERS\ANTONINA\DESKTOP\TP04\TP_PROJEKT_4\BUILD\_DEPS\EIGEN-SUBBUILD\CMAKEFILES\4D1F5227D6BEA40F39A8095F2DD5E3A8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/_deps/eigen-subbuild -BC:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/_deps/eigen-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/_deps/eigen-subbuild/eigen-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

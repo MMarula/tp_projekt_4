@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\SDL2_gfx\SDL2_framerate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\SDL2_gfx\SDL2_gfxPrimitives.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\SDL2_gfx\SDL2_imageFilter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\SDL2_gfx\SDL2_rotozoom.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\SDL2_gfx\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D35FD364-D34C-398C-8298-3CFB49E0DCE1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

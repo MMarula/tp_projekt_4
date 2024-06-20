@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_assert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_atomic.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_audio.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_bits.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_blendmode.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_clipboard.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_copying.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_cpuinfo.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_egl.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_endian.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_error.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_events.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_filesystem.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_gamecontroller.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_gesture.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_guid.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_haptic.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_hidapi.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_hints.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_joystick.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_keyboard.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_keycode.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_loadso.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_locale.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_log.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_main.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_messagebox.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_metal.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_misc.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_mouse.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_mutex.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_name.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_opengl.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_opengl_glext.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_opengles.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_opengles2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_opengles2_gl2.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_opengles2_gl2ext.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_opengles2_gl2platform.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_opengles2_khrplatform.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_pixels.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_platform.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_power.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_quit.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_rect.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_render.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_rwops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_scancode.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_sensor.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_shape.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_stdinc.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_surface.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_system.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_syswm.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_test.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_test_assert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_test_common.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_test_compare.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_test_crc32.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_test_font.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_test_fuzzer.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_test_harness.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_test_images.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_test_log.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_test_md5.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_test_memory.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_test_random.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_thread.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_timer.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_touch.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_types.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_version.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_video.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\SDL_vulkan.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\begin_code.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\5f4e1e52e38dfd8b7506daaa8e891aef\close_code.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\1ca7e230b57a5c0d2aee9068fa7be418\sdl_headers_copy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\SDL\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL\CMakeFiles\sdl_headers_copy" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B554C1BE-2626-32BC-A8A1-4709148C11BD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

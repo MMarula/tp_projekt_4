@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6E5CA42A-9047-3110-8D1D-4618F82EDD9C}</ProjectGuid>
+    <ProjectGuid>{857929A9-9A6C-3D16-843F-6A5B8FF0539F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -108,11 +108,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\CMakeLists.txt">
+    <CustomBuild Include="D:\Maciek\tp_projekt_4\matplotplusplus\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Antonina/Desktop/TP04/tp_projekt_4/matplotplusplus/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Maciek/tp_projekt_4/matplotplusplus/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Antonina/Desktop/TP04/tp_projekt_4 -BC:/Users/Antonina/Desktop/TP04/tp_projekt_4/build --check-stamp-file C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/matplotplusplus/CMakeFiles/generate.stamp
+D:\Maciek\cmake\bin\cmake.exe -SD:/Maciek/tp_projekt_4 -BD:/Maciek/tp_projekt_4/build --check-stamp-file D:/Maciek/tp_projekt_4/build/matplotplusplus/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -120,12 +120,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\cmake\functions.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\cmake\functions\link_external_libraries.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\cmake\functions\project_flags.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\cmake\functions\sanitizers.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\cmake\functions\target_options.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\matplotplusplus\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Maciek\cmake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FetchContent.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\functions.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\functions\ensure_build_type.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\functions\link_external_libraries.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\functions\project_flags.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\functions\sanitizers.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\functions\target_options.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Maciek\tp_projekt_4\build\matplotplusplus\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Antonina/Desktop/TP04/tp_projekt_4/matplotplusplus/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Maciek/tp_projekt_4/matplotplusplus/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Antonina/Desktop/TP04/tp_projekt_4 -BC:/Users/Antonina/Desktop/TP04/tp_projekt_4/build --check-stamp-file C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/matplotplusplus/CMakeFiles/generate.stamp
+D:\Maciek\cmake\bin\cmake.exe -SD:/Maciek/tp_projekt_4 -BD:/Maciek/tp_projekt_4/build --check-stamp-file D:/Maciek/tp_projekt_4/build/matplotplusplus/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -133,12 +133,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\cmake\functions.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\cmake\functions\link_external_libraries.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\cmake\functions\project_flags.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\cmake\functions\sanitizers.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\cmake\functions\target_options.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\matplotplusplus\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Maciek\cmake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FetchContent.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\functions.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\functions\ensure_build_type.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\functions\link_external_libraries.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\functions\project_flags.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\functions\sanitizers.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\functions\target_options.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Maciek\tp_projekt_4\build\matplotplusplus\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Antonina/Desktop/TP04/tp_projekt_4/matplotplusplus/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Maciek/tp_projekt_4/matplotplusplus/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Antonina/Desktop/TP04/tp_projekt_4 -BC:/Users/Antonina/Desktop/TP04/tp_projekt_4/build --check-stamp-file C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/matplotplusplus/CMakeFiles/generate.stamp
+D:\Maciek\cmake\bin\cmake.exe -SD:/Maciek/tp_projekt_4 -BD:/Maciek/tp_projekt_4/build --check-stamp-file D:/Maciek/tp_projekt_4/build/matplotplusplus/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -146,12 +146,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\cmake\functions.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\cmake\functions\link_external_libraries.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\cmake\functions\project_flags.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\cmake\functions\sanitizers.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\cmake\functions\target_options.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\matplotplusplus\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Maciek\cmake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FetchContent.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\functions.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\functions\ensure_build_type.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\functions\link_external_libraries.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\functions\project_flags.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\functions\sanitizers.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\functions\target_options.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Maciek\tp_projekt_4\build\matplotplusplus\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Antonina/Desktop/TP04/tp_projekt_4/matplotplusplus/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Maciek/tp_projekt_4/matplotplusplus/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Antonina/Desktop/TP04/tp_projekt_4 -BC:/Users/Antonina/Desktop/TP04/tp_projekt_4/build --check-stamp-file C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/matplotplusplus/CMakeFiles/generate.stamp
+D:\Maciek\cmake\bin\cmake.exe -SD:/Maciek/tp_projekt_4 -BD:/Maciek/tp_projekt_4/build --check-stamp-file D:/Maciek/tp_projekt_4/build/matplotplusplus/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,26 +159,26 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\cmake\functions.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\cmake\functions\link_external_libraries.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\cmake\functions\project_flags.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\cmake\functions\sanitizers.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\cmake\functions\target_options.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\matplotplusplus\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Maciek\cmake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FetchContent.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\functions.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\functions\ensure_build_type.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\functions\link_external_libraries.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\functions\project_flags.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\functions\sanitizers.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\functions\target_options.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Maciek\tp_projekt_4\build\matplotplusplus\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\ZERO_CHECK.vcxproj">
-      <Project>{13A40FED-4E1E-3249-8620-340386765576}</Project>
+    <ProjectReference Include="D:\Maciek\tp_projekt_4\build\ZERO_CHECK.vcxproj">
+      <Project>{2B75F950-AD88-3DE4-82AC-CDE57157E79B}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\matplotplusplus\source\matplot\matplot.vcxproj">
-      <Project>{6F4B8182-1185-3F13-9D90-3A68C6EAF876}</Project>
+    <ProjectReference Include="D:\Maciek\tp_projekt_4\build\matplotplusplus\source\matplot\matplot.vcxproj">
+      <Project>{6DDC6B0B-9A2E-3CDB-B73F-514552B51DD1}</Project>
       <Name>matplot</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\matplotplusplus\source\3rd_party\nodesoup.vcxproj">
-      <Project>{8E697D4D-BC37-3FE9-886B-0AACFB280230}</Project>
+    <ProjectReference Include="D:\Maciek\tp_projekt_4\build\matplotplusplus\source\3rd_party\nodesoup.vcxproj">
+      <Project>{D16E52BF-45B4-3215-90C8-D2316ACFBEF9}</Project>
       <Name>nodesoup</Name>
     </ProjectReference>
   </ItemGroup>

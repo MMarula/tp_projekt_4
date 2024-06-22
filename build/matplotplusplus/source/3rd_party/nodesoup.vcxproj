@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{8E697D4D-BC37-3FE9-886B-0AACFB280230}</ProjectGuid>
+    <ProjectGuid>{D16E52BF-45B4-3215-90C8-D2316ACFBEF9}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,36 +59,38 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\matplotplusplus\source\3rd_party\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Maciek\tp_projekt_4\build\matplotplusplus\source\3rd_party\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">nodesoup.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">nodesoup</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\matplotplusplus\source\3rd_party\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Maciek\tp_projekt_4\build\matplotplusplus\source\3rd_party\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">nodesoup.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">nodesoup</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\matplotplusplus\source\3rd_party\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Maciek\tp_projekt_4\build\matplotplusplus\source\3rd_party\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">nodesoup.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">nodesoup</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\matplotplusplus\source\3rd_party\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Maciek\tp_projekt_4\build\matplotplusplus\source\3rd_party\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">nodesoup.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">nodesoup</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Maciek\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_USE_MATH_DEFINES;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -96,10 +98,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Maciek\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Maciek\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -112,15 +114,18 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Maciek\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -130,10 +135,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Maciek\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Maciek\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -146,15 +151,18 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Maciek\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>MinSpace</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -164,10 +172,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Maciek\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Maciek\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -180,16 +188,19 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Maciek\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -197,10 +208,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Maciek\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Maciek\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -212,11 +223,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\CMakeLists.txt">
+    <CustomBuild Include="D:\Maciek\tp_projekt_4\matplotplusplus\source\3rd_party\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Antonina/Desktop/TP04/tp_projekt_4/matplotplusplus/source/3rd_party/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Maciek/tp_projekt_4/matplotplusplus/source/3rd_party/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Antonina/Desktop/TP04/tp_projekt_4 -BC:/Users/Antonina/Desktop/TP04/tp_projekt_4/build --check-stamp-file C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/matplotplusplus/source/3rd_party/CMakeFiles/generate.stamp
+D:\Maciek\cmake\bin\cmake.exe -SD:/Maciek/tp_projekt_4 -BD:/Maciek/tp_projekt_4/build --check-stamp-file D:/Maciek/tp_projekt_4/build/matplotplusplus/source/3rd_party/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -224,12 +235,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindBLAS.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindLAPACK.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPNG.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindTIFF.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\SelectLibraryConfigurations.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\cmake\FindFFTW.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\cmake\FindOpenCV.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\matplotplusplus\source\3rd_party\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Maciek\cmake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CheckFunctionExists.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CheckLibraryExists.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindBLAS.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindJPEG.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindLAPACK.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindPkgConfig.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindTIFF.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindThreads.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindZLIB.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\SelectLibraryConfigurations.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\FindFFTW.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\FindOpenCV.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Maciek\tp_projekt_4\build\matplotplusplus\source\3rd_party\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Antonina/Desktop/TP04/tp_projekt_4/matplotplusplus/source/3rd_party/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Maciek/tp_projekt_4/matplotplusplus/source/3rd_party/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Antonina/Desktop/TP04/tp_projekt_4 -BC:/Users/Antonina/Desktop/TP04/tp_projekt_4/build --check-stamp-file C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/matplotplusplus/source/3rd_party/CMakeFiles/generate.stamp
+D:\Maciek\cmake\bin\cmake.exe -SD:/Maciek/tp_projekt_4 -BD:/Maciek/tp_projekt_4/build --check-stamp-file D:/Maciek/tp_projekt_4/build/matplotplusplus/source/3rd_party/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -237,12 +248,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindBLAS.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindLAPACK.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPNG.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindTIFF.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\SelectLibraryConfigurations.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\cmake\FindFFTW.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\cmake\FindOpenCV.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\matplotplusplus\source\3rd_party\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Maciek\cmake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CheckFunctionExists.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CheckLibraryExists.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindBLAS.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindJPEG.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindLAPACK.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindPkgConfig.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindTIFF.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindThreads.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindZLIB.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\SelectLibraryConfigurations.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\FindFFTW.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\FindOpenCV.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Maciek\tp_projekt_4\build\matplotplusplus\source\3rd_party\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Antonina/Desktop/TP04/tp_projekt_4/matplotplusplus/source/3rd_party/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Maciek/tp_projekt_4/matplotplusplus/source/3rd_party/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Antonina/Desktop/TP04/tp_projekt_4 -BC:/Users/Antonina/Desktop/TP04/tp_projekt_4/build --check-stamp-file C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/matplotplusplus/source/3rd_party/CMakeFiles/generate.stamp
+D:\Maciek\cmake\bin\cmake.exe -SD:/Maciek/tp_projekt_4 -BD:/Maciek/tp_projekt_4/build --check-stamp-file D:/Maciek/tp_projekt_4/build/matplotplusplus/source/3rd_party/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -250,12 +261,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindBLAS.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindLAPACK.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPNG.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindTIFF.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\SelectLibraryConfigurations.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\cmake\FindFFTW.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\cmake\FindOpenCV.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\matplotplusplus\source\3rd_party\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Maciek\cmake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CheckFunctionExists.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CheckLibraryExists.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindBLAS.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindJPEG.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindLAPACK.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindPkgConfig.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindTIFF.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindThreads.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindZLIB.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\SelectLibraryConfigurations.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\FindFFTW.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\FindOpenCV.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Maciek\tp_projekt_4\build\matplotplusplus\source\3rd_party\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Antonina/Desktop/TP04/tp_projekt_4/matplotplusplus/source/3rd_party/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Maciek/tp_projekt_4/matplotplusplus/source/3rd_party/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Antonina/Desktop/TP04/tp_projekt_4 -BC:/Users/Antonina/Desktop/TP04/tp_projekt_4/build --check-stamp-file C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/matplotplusplus/source/3rd_party/CMakeFiles/generate.stamp
+D:\Maciek\cmake\bin\cmake.exe -SD:/Maciek/tp_projekt_4 -BD:/Maciek/tp_projekt_4/build --check-stamp-file D:/Maciek/tp_projekt_4/build/matplotplusplus/source/3rd_party/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -263,26 +274,26 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindBLAS.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindLAPACK.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPNG.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindTIFF.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\SelectLibraryConfigurations.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\cmake\FindFFTW.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\cmake\FindOpenCV.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\matplotplusplus\source\3rd_party\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Maciek\cmake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CheckFunctionExists.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CheckLibraryExists.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindBLAS.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindJPEG.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindLAPACK.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindPkgConfig.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindTIFF.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindThreads.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FindZLIB.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\SelectLibraryConfigurations.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\FindFFTW.cmake;D:\Maciek\tp_projekt_4\matplotplusplus\cmake\FindOpenCV.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Maciek\tp_projekt_4\build\matplotplusplus\source\3rd_party\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\algebra.cpp" />
-    <ClInclude Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\algebra.hpp" />
-    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\fruchterman_reingold.cpp" />
-    <ClInclude Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\fruchterman_reingold.hpp" />
-    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\kamada_kawai.cpp" />
-    <ClInclude Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\kamada_kawai.hpp" />
-    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\layout.cpp" />
-    <ClInclude Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\layout.hpp" />
-    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\nodesoup.cpp" />
-    <ClInclude Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\include\nodesoup.hpp" />
+    <ClCompile Include="D:\Maciek\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\algebra.cpp" />
+    <ClInclude Include="D:\Maciek\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\algebra.hpp" />
+    <ClCompile Include="D:\Maciek\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\fruchterman_reingold.cpp" />
+    <ClInclude Include="D:\Maciek\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\fruchterman_reingold.hpp" />
+    <ClCompile Include="D:\Maciek\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\kamada_kawai.cpp" />
+    <ClInclude Include="D:\Maciek\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\kamada_kawai.hpp" />
+    <ClCompile Include="D:\Maciek\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\layout.cpp" />
+    <ClInclude Include="D:\Maciek\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\layout.hpp" />
+    <ClCompile Include="D:\Maciek\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\src\nodesoup.cpp" />
+    <ClInclude Include="D:\Maciek\tp_projekt_4\matplotplusplus\source\3rd_party\nodesoup\include\nodesoup.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\ZERO_CHECK.vcxproj">
-      <Project>{13A40FED-4E1E-3249-8620-340386765576}</Project>
+    <ProjectReference Include="D:\Maciek\tp_projekt_4\build\ZERO_CHECK.vcxproj">
+      <Project>{2B75F950-AD88-3DE4-82AC-CDE57157E79B}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Antonina/Desktop/TP04/tp_projekt_4/matplotplusplus/source/matplot
+# Install script for directory: D:/Maciek/tp_projekt_4/matplotplusplus/source/matplot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -30,5 +30,9 @@ endif()
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/matplot/detail" TYPE FILE FILES "D:/Maciek/tp_projekt_4/build/matplotplusplus/source/matplot/matplot/detail/exports.h")
 endif()
 

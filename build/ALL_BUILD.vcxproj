@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6E5CA42A-9047-3110-8D1D-4618F82EDD9C}</ProjectGuid>
+    <ProjectGuid>{857929A9-9A6C-3D16-843F-6A5B8FF0539F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -108,11 +108,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\CMakeLists.txt">
+    <CustomBuild Include="D:\Maciek\tp_projekt_4\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Antonina/Desktop/TP04/tp_projekt_4/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Maciek/tp_projekt_4/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Antonina/Desktop/TP04/tp_projekt_4 -BC:/Users/Antonina/Desktop/TP04/tp_projekt_4/build --check-stamp-file C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/CMakeFiles/generate.stamp
+D:\Maciek\cmake\bin\cmake.exe -SD:/Maciek/tp_projekt_4 -BD:/Maciek/tp_projekt_4/build --check-stamp-file D:/Maciek/tp_projekt_4/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -120,12 +120,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeCCompiler.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeCXXCompiler.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeRCCompiler.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeSystem.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\cmake\CPM_0.38.1.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\cmake\CPM.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FetchContent.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeCCompiler.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeCXXCompiler.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeRCCompiler.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeSystem.cmake;D:\Maciek\tp_projekt_4\build\cmake\CPM_0.38.1.cmake;D:\Maciek\tp_projekt_4\cmake\CPM.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Maciek\tp_projekt_4\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Antonina/Desktop/TP04/tp_projekt_4/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Maciek/tp_projekt_4/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Antonina/Desktop/TP04/tp_projekt_4 -BC:/Users/Antonina/Desktop/TP04/tp_projekt_4/build --check-stamp-file C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/CMakeFiles/generate.stamp
+D:\Maciek\cmake\bin\cmake.exe -SD:/Maciek/tp_projekt_4 -BD:/Maciek/tp_projekt_4/build --check-stamp-file D:/Maciek/tp_projekt_4/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -133,12 +133,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeCCompiler.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeCXXCompiler.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeRCCompiler.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeSystem.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\cmake\CPM_0.38.1.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\cmake\CPM.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FetchContent.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeCCompiler.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeCXXCompiler.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeRCCompiler.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeSystem.cmake;D:\Maciek\tp_projekt_4\build\cmake\CPM_0.38.1.cmake;D:\Maciek\tp_projekt_4\cmake\CPM.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Maciek\tp_projekt_4\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Antonina/Desktop/TP04/tp_projekt_4/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Maciek/tp_projekt_4/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Antonina/Desktop/TP04/tp_projekt_4 -BC:/Users/Antonina/Desktop/TP04/tp_projekt_4/build --check-stamp-file C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/CMakeFiles/generate.stamp
+D:\Maciek\cmake\bin\cmake.exe -SD:/Maciek/tp_projekt_4 -BD:/Maciek/tp_projekt_4/build --check-stamp-file D:/Maciek/tp_projekt_4/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -146,12 +146,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeCCompiler.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeCXXCompiler.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeRCCompiler.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeSystem.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\cmake\CPM_0.38.1.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\cmake\CPM.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FetchContent.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeCCompiler.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeCXXCompiler.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeRCCompiler.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeSystem.cmake;D:\Maciek\tp_projekt_4\build\cmake\CPM_0.38.1.cmake;D:\Maciek\tp_projekt_4\cmake\CPM.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Maciek\tp_projekt_4\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Antonina/Desktop/TP04/tp_projekt_4/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Maciek/tp_projekt_4/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Antonina/Desktop/TP04/tp_projekt_4 -BC:/Users/Antonina/Desktop/TP04/tp_projekt_4/build --check-stamp-file C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/CMakeFiles/generate.stamp
+D:\Maciek\cmake\bin\cmake.exe -SD:/Maciek/tp_projekt_4 -BD:/Maciek/tp_projekt_4/build --check-stamp-file D:/Maciek/tp_projekt_4/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,50 +159,50 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeCCompiler.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeCXXCompiler.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeRCCompiler.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeSystem.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\cmake\CPM_0.38.1.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\cmake\CPM.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FetchContent.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeCCompiler.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeCXXCompiler.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeRCCompiler.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeSystem.cmake;D:\Maciek\tp_projekt_4\build\cmake\CPM_0.38.1.cmake;D:\Maciek\tp_projekt_4\cmake\CPM.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Maciek\tp_projekt_4\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\ZERO_CHECK.vcxproj">
-      <Project>{13A40FED-4E1E-3249-8620-340386765576}</Project>
+    <ProjectReference Include="D:\Maciek\tp_projekt_4\build\ZERO_CHECK.vcxproj">
+      <Project>{2B75F950-AD88-3DE4-82AC-CDE57157E79B}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL\SDL2.vcxproj">
-      <Project>{2F02140B-4C8A-38A7-86B2-0D23DA2B60BE}</Project>
+    <ProjectReference Include="D:\Maciek\tp_projekt_4\build\SDL\SDL2.vcxproj">
+      <Project>{B026532D-AAC7-32B0-B033-0E50B91ADD4C}</Project>
       <Name>SDL2</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL\SDL2-static.vcxproj">
-      <Project>{607C6DF4-3396-3931-9849-10EA832E19D1}</Project>
+    <ProjectReference Include="D:\Maciek\tp_projekt_4\build\SDL\SDL2-static.vcxproj">
+      <Project>{D9B3E982-8BE2-36A0-86C3-89AF6A9F1180}</Project>
       <Name>SDL2-static</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL2_gfx\SDL2_gfx.vcxproj">
-      <Project>{C1ED74C6-D5F7-3AC3-8EDA-702A799975E8}</Project>
+    <ProjectReference Include="D:\Maciek\tp_projekt_4\build\SDL2_gfx\SDL2_gfx.vcxproj">
+      <Project>{536ECC81-9FC3-3BDA-8427-BAFBA3C323C9}</Project>
       <Name>SDL2_gfx</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL\SDL2_test.vcxproj">
-      <Project>{0BA001A6-9B73-3F75-87A8-0CDB2AD690D7}</Project>
+    <ProjectReference Include="D:\Maciek\tp_projekt_4\build\SDL\SDL2_test.vcxproj">
+      <Project>{6F0A3117-C2F9-30A8-AE9B-CFD8B3B02A27}</Project>
       <Name>SDL2_test</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL\SDL2main.vcxproj">
-      <Project>{75C75FF8-F6A1-3BAA-8236-F9DC9B1BC68B}</Project>
+    <ProjectReference Include="D:\Maciek\tp_projekt_4\build\SDL\SDL2main.vcxproj">
+      <Project>{9726BCA0-72D2-31CA-A12A-64D78D6DCCFF}</Project>
       <Name>SDL2main</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\matplotplusplus\source\matplot\matplot.vcxproj">
-      <Project>{6F4B8182-1185-3F13-9D90-3A68C6EAF876}</Project>
+    <ProjectReference Include="D:\Maciek\tp_projekt_4\build\matplotplusplus\source\matplot\matplot.vcxproj">
+      <Project>{6DDC6B0B-9A2E-3CDB-B73F-514552B51DD1}</Project>
       <Name>matplot</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\matplotplusplus\source\3rd_party\nodesoup.vcxproj">
-      <Project>{8E697D4D-BC37-3FE9-886B-0AACFB280230}</Project>
+    <ProjectReference Include="D:\Maciek\tp_projekt_4\build\matplotplusplus\source\3rd_party\nodesoup.vcxproj">
+      <Project>{D16E52BF-45B4-3215-90C8-D2316ACFBEF9}</Project>
       <Name>nodesoup</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\planar_quadrotor.vcxproj">
-      <Project>{3909B48F-7624-31CC-B9B0-687DACD54FC7}</Project>
+    <ProjectReference Include="D:\Maciek\tp_projekt_4\build\planar_quadrotor.vcxproj">
+      <Project>{77F7D13C-037B-38F5-B915-7A555B17471E}</Project>
       <Name>planar_quadrotor</Name>
     </ProjectReference>
   </ItemGroup>

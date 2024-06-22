@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Antonina/Desktop/TP04/tp_projekt_4/SDL
+# Install script for directory: D:/Maciek/tp_projekt_4/SDL
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Antonina/Desktop/TP04/tp_projekt_4/matplotplusplus/source/3rd_party
+# Install script for directory: D:/Maciek/tp_projekt_4/matplotplusplus/source/3rd_party
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

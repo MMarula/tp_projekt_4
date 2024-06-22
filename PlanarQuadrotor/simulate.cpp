@@ -2,22 +2,48 @@
  * SDL window creation adapted from https://github.com/isJuhn/DoublePendulum
 */
 #include "simulate.h"
+#include <matplot/matplot.h>
 
-Eigen::MatrixXf LQR(PlanarQuadrotor &quadrotor, float dt) {
+bool readSettings(Eigen::MatrixXf& Q, Eigen::MatrixXf& R) {
+    std::ifstream file("D:/maciek/tp_projekt_4/settings.txt");
+    if (!file.is_open()) {
+        std::cout << "Failed to open file: settings.txt" << std::endl;
+        return false;
+    }
+
+    std::string line;
+    while (std::getline(file, line)) {
+        std::istringstream iss(line);
+        std::string which;
+        iss >> which;
+
+        if (which == "Q") {
+            for (int i = 0; i < 6; ++i) {
+                iss >> Q(i, i);
+            }
+        } else if (which == "R") {
+            for (int i = 0; i < 2; ++i) {
+                for (int j = 0; j < 2; ++j) {
+                    iss >> R(i, j);
+                }
+            }
+        }
+    }
+
+    file.close();
+    return true;
+}
+    
+
+Eigen::MatrixXf LQR(PlanarQuadrotor &quadrotor, float dt, Eigen::MatrixXf& Q, Eigen::MatrixXf& R) {
     /* Calculate LQR gain matrix */
     Eigen::MatrixXf Eye = Eigen::MatrixXf::Identity(6, 6);
     Eigen::MatrixXf A = Eigen::MatrixXf::Zero(6, 6);
     Eigen::MatrixXf A_discrete = Eigen::MatrixXf::Zero(6, 6);
     Eigen::MatrixXf B(6, 2);
     Eigen::MatrixXf B_discrete(6, 2);
-    Eigen::MatrixXf Q = Eigen::MatrixXf::Identity(6, 6);
-    Eigen::MatrixXf R = Eigen::MatrixXf::Identity(2, 2);
     Eigen::MatrixXf K = Eigen::MatrixXf::Zero(6, 6);
     Eigen::Vector2f input = quadrotor.GravityCompInput();
-
-    Q.diagonal() << 0.004, 0.004, 400, 0.005, 0.045, 0.25 / 2 / M_PI;
-    R.row(0) << 30, 7;
-    R.row(1) << 7, 30;
 
     std::tie(A, B) = quadrotor.Linearize();
     A_discrete = Eye + dt * A;
@@ -37,6 +63,15 @@ int main(int argc, char* args[])
     std::shared_ptr<SDL_Renderer> gRenderer = nullptr;
     const int SCREEN_WIDTH = 1280;
     const int SCREEN_HEIGHT = 720;
+
+    Eigen::MatrixXf Q = Eigen::MatrixXf::Identity(6, 6);
+    Eigen::MatrixXf R = Eigen::MatrixXf::Identity(2, 2);
+    if (!readSettings(Q, R)) {
+        std::cout << "Using default parameters." << std::endl;
+            Q.diagonal() << 0.01, 0.05, 10, 0.01, 0.05, 0.25 / M_PI;
+            R.row(0) << 1, 5;
+            R.row(1) << 5, 1;
+    }
 
     /**
      * TODO: Extend simulation
@@ -58,7 +93,7 @@ int main(int argc, char* args[])
 
     /* Timestep for the simulation */
     const float dt = 0.001;
-    Eigen::MatrixXf K = LQR(quadrotor, dt);
+    Eigen::MatrixXf K = LQR(quadrotor, dt, Q, R);
     Eigen::Vector2f input = Eigen::Vector2f::Zero(2);
 
     /**
@@ -87,14 +122,23 @@ int main(int argc, char* args[])
                 {
                     quit = true;
                 }
-                else if (e.type == SDL_MOUSEMOTION)
+                else if (e.type == SDL_MOUSEBUTTONDOWN && e.button.button == SDL_BUTTON_LEFT)
                 {
                     SDL_GetMouseState(&x, &y);
                     Eigen::VectorXf move_state = Eigen::VectorXf::Zero(6);
-                    move_state << x, y, 0, 0, 0, 0;
+                    move_state << (x - SCREEN_WIDTH / 2.0), (y - SCREEN_HEIGHT / 2.0), 0, 0, 0, 0;
                     quadrotor.SetGoal(move_state);
-                    std::cout << "Mouse position: (" << x << ", " << y << ")" << std::endl;
-               }    
+                    std::cout << "Goal set to: (" << (x - SCREEN_WIDTH / 2.0) << ", " << (y - SCREEN_HEIGHT / 2.0) << ")" << std::endl;
+                } else if (e.type == SDL_KEYDOWN && e.key.keysym.sym == SDLK_p)
+                {
+                namespace plt = matplot;
+                plt::figure();
+                plt::plot(x_history, y_history);
+                plt::title("Quadrotor Trajectory");
+                plt::xlabel("X Position");
+                plt::ylabel("Y Position");
+                plt::show();
+                }    
                 
             }
 
@@ -111,6 +155,12 @@ int main(int argc, char* args[])
             /* Simulate quadrotor forward in time */
             control(quadrotor, K);
             quadrotor.Update(dt);
+
+            state = quadrotor.GetState();
+            x_history.push_back(state(0));
+            y_history.push_back(state(1));
+            theta_history.push_back(state(2));
+
         }
     }
     SDL_Quit();

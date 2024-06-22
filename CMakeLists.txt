@@ -10,6 +10,8 @@ add_subdirectory(SDL2_gfx)
 
 set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}")
 
+#configure_file(settings.txt ${CMAKE_CURRENT_BINARY_DIR}/settings.txt COPYONLY)
+
 CPMAddPackage(
   NAME Eigen
   VERSION 3.4.0
@@ -23,11 +25,13 @@ if(Eigen_ADDED)
   target_include_directories(Eigen INTERFACE ${Eigen_SOURCE_DIR})
 endif()
 
+
 set(PLANAR_QUADROTOR_SOURCES PlanarQuadrotor/simulate.cpp PlanarQuadrotor/planar_quadrotor.cpp PlanarQuadrotor/planar_quadrotor_visualizer.cpp PlanarQuadrotor/lqr.cpp)
 add_executable(planar_quadrotor ${PLANAR_QUADROTOR_SOURCES})
 if(TARGET SDL2::SDL2main)
     # It has an implicit dependency on SDL2 functions, so it MUST be added before SDL2::SDL2 (or SDL2::SDL2-static)
     target_link_libraries(planar_quadrotor SDL2::SDL2main)
 endif()
+
 target_link_libraries(planar_quadrotor SDL2::SDL2 SDL2_gfx Eigen matplot)
 target_include_directories(planar_quadrotor PRIVATE ${PROJECT_SOURCE_DIR})

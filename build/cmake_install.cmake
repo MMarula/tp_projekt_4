@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Antonina/Desktop/TP04/tp_projekt_4
+# Install script for directory: D:/Maciek/tp_projekt_4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,26 +34,34 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/matplotplusplus/cmake_install.cmake")
+  include("D:/Maciek/tp_projekt_4/build/matplotplusplus/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/SDL/cmake_install.cmake")
+  include("D:/Maciek/tp_projekt_4/build/SDL/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/SDL2_gfx/cmake_install.cmake")
+  include("D:/Maciek/tp_projekt_4/build/SDL2_gfx/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
-  set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
+  if(CMAKE_INSTALL_COMPONENT MATCHES "^[a-zA-Z0-9_.+-]+$")
+    set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
+  else()
+    string(MD5 CMAKE_INST_COMP_HASH "${CMAKE_INSTALL_COMPONENT}")
+    set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INST_COMP_HASH}.txt")
+    unset(CMAKE_INST_COMP_HASH)
+  endif()
 else()
   set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 endif()
 
-string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "D:/Maciek/tp_projekt_4/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
+endif()

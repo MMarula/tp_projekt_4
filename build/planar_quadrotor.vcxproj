@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3909B48F-7624-31CC-B9B0-687DACD54FC7}</ProjectGuid>
+    <ProjectGuid>{77F7D13C-037B-38F5-B915-7A555B17471E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Maciek\tp_projekt_4\build\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">planar_quadrotor.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">planar_quadrotor</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Maciek\tp_projekt_4\build\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">planar_quadrotor.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">planar_quadrotor</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Maciek\tp_projekt_4\build\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">planar_quadrotor.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">planar_quadrotor</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Maciek\tp_projekt_4\build\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">planar_quadrotor.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">planar_quadrotor</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,8 +86,8 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Antonina\Desktop\TP04\tp_projekt_4;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL\include;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL\include-config-debug;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/_deps/eigen-src"</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\Maciek\tp_projekt_4;D:\Maciek\tp_projekt_4\build\SDL\include;D:\Maciek\tp_projekt_4\build\SDL\include-config-debug;D:\Maciek\tp_projekt_4\build\SDL2_gfx\SDL-2.24.2\include;D:\Maciek\tp_projekt_4\matplotplusplus\source;D:\Maciek\tp_projekt_4\build\matplotplusplus\source\matplot;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Maciek/tp_projekt_4/build/_deps/eigen-src"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -95,10 +95,12 @@
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -106,10 +108,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Antonina\Desktop\TP04\tp_projekt_4;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL\include;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL\include-config-debug;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Maciek\tp_projekt_4;D:\Maciek\tp_projekt_4\build\SDL\include;D:\Maciek\tp_projekt_4\build\SDL\include-config-debug;D:\Maciek\tp_projekt_4\build\SDL2_gfx\SDL-2.24.2\include;D:\Maciek\tp_projekt_4\matplotplusplus\source;D:\Maciek\tp_projekt_4\build\matplotplusplus\source\matplot;D:\Maciek\tp_projekt_4\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Antonina\Desktop\TP04\tp_projekt_4;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL\include;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL\include-config-debug;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Maciek\tp_projekt_4;D:\Maciek\tp_projekt_4\build\SDL\include;D:\Maciek\tp_projekt_4\build\SDL\include-config-debug;D:\Maciek\tp_projekt_4\build\SDL2_gfx\SDL-2.24.2\include;D:\Maciek\tp_projekt_4\matplotplusplus\source;D:\Maciek\tp_projekt_4\build\matplotplusplus\source\matplot;D:\Maciek\tp_projekt_4\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -122,8 +124,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/Debug/planar_quadrotor.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/Debug/planar_quadrotor.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/Maciek/tp_projekt_4/build/Debug/planar_quadrotor.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Maciek/tp_projekt_4/build/Debug/planar_quadrotor.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -132,17 +134,20 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Antonina\Desktop\TP04\tp_projekt_4;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL\include;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL\include-config-release;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/_deps/eigen-src"</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\Maciek\tp_projekt_4;D:\Maciek\tp_projekt_4\build\SDL\include;D:\Maciek\tp_projekt_4\build\SDL\include-config-release;D:\Maciek\tp_projekt_4\build\SDL2_gfx\SDL-2.24.2\include;D:\Maciek\tp_projekt_4\matplotplusplus\source;D:\Maciek\tp_projekt_4\build\matplotplusplus\source\matplot;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Maciek/tp_projekt_4/build/_deps/eigen-src"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -152,10 +157,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Antonina\Desktop\TP04\tp_projekt_4;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL\include;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL\include-config-release;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Maciek\tp_projekt_4;D:\Maciek\tp_projekt_4\build\SDL\include;D:\Maciek\tp_projekt_4\build\SDL\include-config-release;D:\Maciek\tp_projekt_4\build\SDL2_gfx\SDL-2.24.2\include;D:\Maciek\tp_projekt_4\matplotplusplus\source;D:\Maciek\tp_projekt_4\build\matplotplusplus\source\matplot;D:\Maciek\tp_projekt_4\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Antonina\Desktop\TP04\tp_projekt_4;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL\include;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL\include-config-release;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Maciek\tp_projekt_4;D:\Maciek\tp_projekt_4\build\SDL\include;D:\Maciek\tp_projekt_4\build\SDL\include-config-release;D:\Maciek\tp_projekt_4\build\SDL2_gfx\SDL-2.24.2\include;D:\Maciek\tp_projekt_4\matplotplusplus\source;D:\Maciek\tp_projekt_4\build\matplotplusplus\source\matplot;D:\Maciek\tp_projekt_4\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -168,8 +173,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/Release/planar_quadrotor.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/Release/planar_quadrotor.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/Maciek/tp_projekt_4/build/Release/planar_quadrotor.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Maciek/tp_projekt_4/build/Release/planar_quadrotor.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -178,17 +183,20 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Antonina\Desktop\TP04\tp_projekt_4;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL\include;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL\include-config-minsizerel;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/_deps/eigen-src"</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\Maciek\tp_projekt_4;D:\Maciek\tp_projekt_4\build\SDL\include;D:\Maciek\tp_projekt_4\build\SDL\include-config-minsizerel;D:\Maciek\tp_projekt_4\build\SDL2_gfx\SDL-2.24.2\include;D:\Maciek\tp_projekt_4\matplotplusplus\source;D:\Maciek\tp_projekt_4\build\matplotplusplus\source\matplot;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Maciek/tp_projekt_4/build/_deps/eigen-src"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>MinSpace</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -198,10 +206,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Antonina\Desktop\TP04\tp_projekt_4;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL\include;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL\include-config-minsizerel;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Maciek\tp_projekt_4;D:\Maciek\tp_projekt_4\build\SDL\include;D:\Maciek\tp_projekt_4\build\SDL\include-config-minsizerel;D:\Maciek\tp_projekt_4\build\SDL2_gfx\SDL-2.24.2\include;D:\Maciek\tp_projekt_4\matplotplusplus\source;D:\Maciek\tp_projekt_4\build\matplotplusplus\source\matplot;D:\Maciek\tp_projekt_4\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Antonina\Desktop\TP04\tp_projekt_4;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL\include;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL\include-config-minsizerel;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Maciek\tp_projekt_4;D:\Maciek\tp_projekt_4\build\SDL\include;D:\Maciek\tp_projekt_4\build\SDL\include-config-minsizerel;D:\Maciek\tp_projekt_4\build\SDL2_gfx\SDL-2.24.2\include;D:\Maciek\tp_projekt_4\matplotplusplus\source;D:\Maciek\tp_projekt_4\build\matplotplusplus\source\matplot;D:\Maciek\tp_projekt_4\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -214,8 +222,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/MinSizeRel/planar_quadrotor.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/MinSizeRel/planar_quadrotor.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/Maciek/tp_projekt_4/build/MinSizeRel/planar_quadrotor.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Maciek/tp_projekt_4/build/MinSizeRel/planar_quadrotor.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -224,18 +232,21 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Antonina\Desktop\TP04\tp_projekt_4;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL\include;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL\include-config-relwithdebinfo;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/_deps/eigen-src"</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\Maciek\tp_projekt_4;D:\Maciek\tp_projekt_4\build\SDL\include;D:\Maciek\tp_projekt_4\build\SDL\include-config-relwithdebinfo;D:\Maciek\tp_projekt_4\build\SDL2_gfx\SDL-2.24.2\include;D:\Maciek\tp_projekt_4\matplotplusplus\source;D:\Maciek\tp_projekt_4\build\matplotplusplus\source\matplot;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Maciek/tp_projekt_4/build/_deps/eigen-src"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -243,10 +254,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Antonina\Desktop\TP04\tp_projekt_4;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL\include;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL\include-config-relwithdebinfo;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Maciek\tp_projekt_4;D:\Maciek\tp_projekt_4\build\SDL\include;D:\Maciek\tp_projekt_4\build\SDL\include-config-relwithdebinfo;D:\Maciek\tp_projekt_4\build\SDL2_gfx\SDL-2.24.2\include;D:\Maciek\tp_projekt_4\matplotplusplus\source;D:\Maciek\tp_projekt_4\build\matplotplusplus\source\matplot;D:\Maciek\tp_projekt_4\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Antonina\Desktop\TP04\tp_projekt_4;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL\include;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL\include-config-relwithdebinfo;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL2_gfx\SDL-2.24.2\include;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\matplotplusplus\source;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Maciek\tp_projekt_4;D:\Maciek\tp_projekt_4\build\SDL\include;D:\Maciek\tp_projekt_4\build\SDL\include-config-relwithdebinfo;D:\Maciek\tp_projekt_4\build\SDL2_gfx\SDL-2.24.2\include;D:\Maciek\tp_projekt_4\matplotplusplus\source;D:\Maciek\tp_projekt_4\build\matplotplusplus\source\matplot;D:\Maciek\tp_projekt_4\build\_deps\eigen-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -259,8 +270,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/RelWithDebInfo/planar_quadrotor.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/RelWithDebInfo/planar_quadrotor.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/Maciek/tp_projekt_4/build/RelWithDebInfo/planar_quadrotor.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Maciek/tp_projekt_4/build/RelWithDebInfo/planar_quadrotor.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -268,11 +279,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\CMakeLists.txt">
+    <CustomBuild Include="D:\Maciek\tp_projekt_4\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Antonina/Desktop/TP04/tp_projekt_4/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Maciek/tp_projekt_4/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Antonina/Desktop/TP04/tp_projekt_4 -BC:/Users/Antonina/Desktop/TP04/tp_projekt_4/build --check-stamp-file C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/CMakeFiles/generate.stamp
+D:\Maciek\cmake\bin\cmake.exe -SD:/Maciek/tp_projekt_4 -BD:/Maciek/tp_projekt_4/build --check-stamp-file D:/Maciek/tp_projekt_4/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -280,12 +291,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeCCompiler.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeCXXCompiler.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeRCCompiler.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeSystem.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\cmake\CPM_0.38.1.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\cmake\CPM.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FetchContent.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeCCompiler.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeCXXCompiler.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeRCCompiler.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeSystem.cmake;D:\Maciek\tp_projekt_4\build\cmake\CPM_0.38.1.cmake;D:\Maciek\tp_projekt_4\cmake\CPM.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Maciek\tp_projekt_4\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Antonina/Desktop/TP04/tp_projekt_4/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Maciek/tp_projekt_4/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Antonina/Desktop/TP04/tp_projekt_4 -BC:/Users/Antonina/Desktop/TP04/tp_projekt_4/build --check-stamp-file C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/CMakeFiles/generate.stamp
+D:\Maciek\cmake\bin\cmake.exe -SD:/Maciek/tp_projekt_4 -BD:/Maciek/tp_projekt_4/build --check-stamp-file D:/Maciek/tp_projekt_4/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -293,12 +304,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeCCompiler.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeCXXCompiler.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeRCCompiler.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeSystem.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\cmake\CPM_0.38.1.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\cmake\CPM.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FetchContent.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeCCompiler.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeCXXCompiler.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeRCCompiler.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeSystem.cmake;D:\Maciek\tp_projekt_4\build\cmake\CPM_0.38.1.cmake;D:\Maciek\tp_projekt_4\cmake\CPM.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Maciek\tp_projekt_4\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Antonina/Desktop/TP04/tp_projekt_4/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Maciek/tp_projekt_4/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Antonina/Desktop/TP04/tp_projekt_4 -BC:/Users/Antonina/Desktop/TP04/tp_projekt_4/build --check-stamp-file C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/CMakeFiles/generate.stamp
+D:\Maciek\cmake\bin\cmake.exe -SD:/Maciek/tp_projekt_4 -BD:/Maciek/tp_projekt_4/build --check-stamp-file D:/Maciek/tp_projekt_4/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -306,12 +317,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeCCompiler.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeCXXCompiler.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeRCCompiler.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeSystem.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\cmake\CPM_0.38.1.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\cmake\CPM.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FetchContent.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeCCompiler.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeCXXCompiler.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeRCCompiler.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeSystem.cmake;D:\Maciek\tp_projekt_4\build\cmake\CPM_0.38.1.cmake;D:\Maciek\tp_projekt_4\cmake\CPM.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Maciek\tp_projekt_4\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Antonina/Desktop/TP04/tp_projekt_4/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Maciek/tp_projekt_4/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Antonina/Desktop/TP04/tp_projekt_4 -BC:/Users/Antonina/Desktop/TP04/tp_projekt_4/build --check-stamp-file C:/Users/Antonina/Desktop/TP04/tp_projekt_4/build/CMakeFiles/generate.stamp
+D:\Maciek\cmake\bin\cmake.exe -SD:/Maciek/tp_projekt_4 -BD:/Maciek/tp_projekt_4/build --check-stamp-file D:/Maciek/tp_projekt_4/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -319,42 +330,42 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeCCompiler.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeCXXCompiler.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeRCCompiler.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\3.29.3\CMakeSystem.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\cmake\CPM_0.38.1.cmake;C:\Users\Antonina\Desktop\TP04\tp_projekt_4\cmake\CPM.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FetchContent.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\Maciek\cmake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeCCompiler.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeCXXCompiler.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeRCCompiler.cmake;D:\Maciek\tp_projekt_4\build\CMakeFiles\3.30.0-rc3\CMakeSystem.cmake;D:\Maciek\tp_projekt_4\build\cmake\CPM_0.38.1.cmake;D:\Maciek\tp_projekt_4\cmake\CPM.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Maciek\tp_projekt_4\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\PlanarQuadrotor\simulate.cpp" />
-    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\PlanarQuadrotor\planar_quadrotor.cpp" />
-    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\PlanarQuadrotor\planar_quadrotor_visualizer.cpp" />
-    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\PlanarQuadrotor\lqr.cpp" />
+    <ClCompile Include="D:\Maciek\tp_projekt_4\PlanarQuadrotor\simulate.cpp" />
+    <ClCompile Include="D:\Maciek\tp_projekt_4\PlanarQuadrotor\planar_quadrotor.cpp" />
+    <ClCompile Include="D:\Maciek\tp_projekt_4\PlanarQuadrotor\planar_quadrotor_visualizer.cpp" />
+    <ClCompile Include="D:\Maciek\tp_projekt_4\PlanarQuadrotor\lqr.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\ZERO_CHECK.vcxproj">
-      <Project>{13A40FED-4E1E-3249-8620-340386765576}</Project>
+    <ProjectReference Include="D:\Maciek\tp_projekt_4\build\ZERO_CHECK.vcxproj">
+      <Project>{2B75F950-AD88-3DE4-82AC-CDE57157E79B}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL\SDL2.vcxproj">
-      <Project>{2F02140B-4C8A-38A7-86B2-0D23DA2B60BE}</Project>
+    <ProjectReference Include="D:\Maciek\tp_projekt_4\build\SDL\SDL2.vcxproj">
+      <Project>{B026532D-AAC7-32B0-B033-0E50B91ADD4C}</Project>
       <Name>SDL2</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL2_gfx\SDL2_gfx.vcxproj">
-      <Project>{C1ED74C6-D5F7-3AC3-8EDA-702A799975E8}</Project>
+    <ProjectReference Include="D:\Maciek\tp_projekt_4\build\SDL2_gfx\SDL2_gfx.vcxproj">
+      <Project>{536ECC81-9FC3-3BDA-8427-BAFBA3C323C9}</Project>
       <Name>SDL2_gfx</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\SDL\SDL2main.vcxproj">
-      <Project>{75C75FF8-F6A1-3BAA-8236-F9DC9B1BC68B}</Project>
+    <ProjectReference Include="D:\Maciek\tp_projekt_4\build\SDL\SDL2main.vcxproj">
+      <Project>{9726BCA0-72D2-31CA-A12A-64D78D6DCCFF}</Project>
       <Name>SDL2main</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\matplotplusplus\source\matplot\matplot.vcxproj">
-      <Project>{6F4B8182-1185-3F13-9D90-3A68C6EAF876}</Project>
+    <ProjectReference Include="D:\Maciek\tp_projekt_4\build\matplotplusplus\source\matplot\matplot.vcxproj">
+      <Project>{6DDC6B0B-9A2E-3CDB-B73F-514552B51DD1}</Project>
       <Name>matplot</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\build\matplotplusplus\source\3rd_party\nodesoup.vcxproj">
-      <Project>{8E697D4D-BC37-3FE9-886B-0AACFB280230}</Project>
+    <ProjectReference Include="D:\Maciek\tp_projekt_4\build\matplotplusplus\source\3rd_party\nodesoup.vcxproj">
+      <Project>{D16E52BF-45B4-3215-90C8-D2316ACFBEF9}</Project>
       <Name>nodesoup</Name>
     </ProjectReference>
   </ItemGroup>

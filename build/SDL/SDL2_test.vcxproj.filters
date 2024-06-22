@@ -1,61 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\SDL\src\test\SDL_test_assert.c">
+    <ClCompile Include="D:\Maciek\tp_projekt_4\SDL\src\test\SDL_test_assert.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\SDL\src\test\SDL_test_common.c">
+    <ClCompile Include="D:\Maciek\tp_projekt_4\SDL\src\test\SDL_test_common.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\SDL\src\test\SDL_test_compare.c">
+    <ClCompile Include="D:\Maciek\tp_projekt_4\SDL\src\test\SDL_test_compare.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\SDL\src\test\SDL_test_crc32.c">
+    <ClCompile Include="D:\Maciek\tp_projekt_4\SDL\src\test\SDL_test_crc32.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\SDL\src\test\SDL_test_font.c">
+    <ClCompile Include="D:\Maciek\tp_projekt_4\SDL\src\test\SDL_test_font.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\SDL\src\test\SDL_test_fuzzer.c">
+    <ClCompile Include="D:\Maciek\tp_projekt_4\SDL\src\test\SDL_test_fuzzer.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\SDL\src\test\SDL_test_harness.c">
+    <ClCompile Include="D:\Maciek\tp_projekt_4\SDL\src\test\SDL_test_harness.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\SDL\src\test\SDL_test_imageBlit.c">
+    <ClCompile Include="D:\Maciek\tp_projekt_4\SDL\src\test\SDL_test_imageBlit.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\SDL\src\test\SDL_test_imageBlitBlend.c">
+    <ClCompile Include="D:\Maciek\tp_projekt_4\SDL\src\test\SDL_test_imageBlitBlend.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\SDL\src\test\SDL_test_imageFace.c">
+    <ClCompile Include="D:\Maciek\tp_projekt_4\SDL\src\test\SDL_test_imageFace.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\SDL\src\test\SDL_test_imagePrimitives.c">
+    <ClCompile Include="D:\Maciek\tp_projekt_4\SDL\src\test\SDL_test_imagePrimitives.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\SDL\src\test\SDL_test_imagePrimitivesBlend.c">
+    <ClCompile Include="D:\Maciek\tp_projekt_4\SDL\src\test\SDL_test_imagePrimitivesBlend.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\SDL\src\test\SDL_test_log.c">
+    <ClCompile Include="D:\Maciek\tp_projekt_4\SDL\src\test\SDL_test_log.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\SDL\src\test\SDL_test_md5.c">
+    <ClCompile Include="D:\Maciek\tp_projekt_4\SDL\src\test\SDL_test_md5.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\SDL\src\test\SDL_test_memory.c">
+    <ClCompile Include="D:\Maciek\tp_projekt_4\SDL\src\test\SDL_test_memory.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\SDL\src\test\SDL_test_random.c">
+    <ClCompile Include="D:\Maciek\tp_projekt_4\SDL\src\test\SDL_test_random.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Antonina\Desktop\TP04\tp_projekt_4\SDL\CMakeLists.txt" />
+    <CustomBuild Include="D:\Maciek\tp_projekt_4\SDL\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{D35FD364-D34C-398C-8298-3CFB49E0DCE1}</UniqueIdentifier>
+      <UniqueIdentifier>{EF65E402-597B-3836-A491-04D801A87FBB}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
